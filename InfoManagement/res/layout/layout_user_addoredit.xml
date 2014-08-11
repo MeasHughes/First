@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_user_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_useradd_hint"
+        android:maxLength="20"
+        android:ems="10"
+         >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

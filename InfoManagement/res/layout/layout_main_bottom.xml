@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/id_main_layout_buttom_rela"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:background="@color/dark_gray"
+         >
+
+        <ImageView
+            android:id="@+id/iv_buttom_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/img_main_buttom_left" />
+
+        <TextView
+            android:id="@+id/tv_main_buttom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/iv_buttom_left"
+            android:text="@string/string_main_buttom"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_buttom_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/img_main_buttom_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_main_bottom_linear"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_main_layout_buttom_rela" >
+
+        <ListView
+            android:id="@+id/lv_main_buttom"
+            style="@style/style_listview" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

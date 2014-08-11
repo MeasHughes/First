@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip" >
+
+    <Button
+        android:id="@+id/btnDot"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_alignParentTop="true"
+        android:text="@string/ButtonTextDot" />
+
+    <EditText
+        android:id="@+id/txtDisplay"
+        android:layout_width="188dip"
+        android:layout_height="63dip"
+        android:layout_toRightOf="@id/btnDot"
+        android:focusable="false"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnOne"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/txtDisplay"
+        android:text="@string/ButtonTextOne" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnOne"
+        android:text="@string/ButtonTextTwo" />
+
+    <Button
+        android:id="@+id/btnThree"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnTwo"
+        android:text="@string/ButtonTextThree" />
+
+    <Button
+        android:id="@+id/btnFour"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/txtDisplay"
+        android:layout_toRightOf="@id/btnThree"
+        android:text="@string/ButtonTextFour" />
+
+    <Button
+        android:id="@+id/btnFive"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnOne"
+        android:text="@string/ButtonTextFive" />
+
+    <Button
+        android:id="@+id/btnSix"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnFive"
+        android:text="@string/ButtonTextSix" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnSix"
+        android:text="@string/ButtonTextSeven" />
+
+    <Button
+        android:id="@+id/btnEight"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnOne"
+        android:layout_toRightOf="@id/btnSeven"
+        android:text="@string/ButtonTextEight" />
+
+    <Button
+        android:id="@+id/btnNine"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnFive"
+        android:text="@string/ButtonTextNine" />
+
+    <Button
+        android:id="@+id/btnZero"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnNine"
+        android:text="@string/ButtonTextZero" />
+
+    <Button
+        android:id="@+id/btnChange"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnZero"
+        android:text="@string/ButtonTextChange" />
+
+    <Button
+        android:id="@+id/btnOk"
+        style="@style/StyleButtonTextNumber"
+        android:layout_width="63dip"
+        android:layout_height="63dip"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf="@id/btnChange"
+        android:text="@string/ButtonTextOk" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/maes/infomanagement/adapter/AdapterCategory.java=UTF-8
+encoding//src/maes/infomanagement/bussiness/BusinessCategory.java=UTF-8
+encoding//src/maes/infomanagement/database/sqlitedal/SQLiteDALCategory.java=UTF-8
+encoding//src/maes/infomanagement/model/ModelAccount.java=UTF-8
+encoding//src/maes/infomanagement/util/DateTools.java=UTF-8
+encoding//src/maes/infomanagement/util/Reflection.java=UTF-8
